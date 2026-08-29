@@ -1744,7 +1744,7 @@
               <div class="polaroid-caption">Buakaw</div>
             </div>
             <div class="polaroid-back">
-              <p class="polaroid-note">“You can rest, but never get discouraged. You can feel discouraged, but never retreat. The greatest victory is conquering your own mind.</p>
+              <p class="polaroid-note">"You can rest, but never get discouraged. You can feel discouraged, but never retreat. The greatest victory is conquering your own mind."</p>
             </div>
           </div>
         </div>
@@ -1789,11 +1789,13 @@
         <div class="polaroid" tabindex="0" role="button" aria-label="Flip photo">
           <div class="polaroid-inner">
             <div class="polaroid-front">
-              <div class="polaroid-photo">📷</div>
-              <div class="polaroid-caption">Memory #4</div>
+              <div class="polaroid-photo">
+                <img src="images/elmoandtintin.jpg" alt="Polaroid #4 photo">
+              </div>
+              <div class="polaroid-caption">Elmo and TinTin</div>
             </div>
             <div class="polaroid-back">
-              <p class="polaroid-note">Here's to another year of terrible jokes and great memories.</p>
+              <p class="polaroid-note">What kind of birthday would it be without these two🐾</p>
             </div>
           </div>
         </div>
@@ -2076,7 +2078,7 @@
 
     const toppingText = order.toppings.length ? `, ${order.toppings.join(' + ')}` : '';
     teaBadgeText.textContent = `${order.sweet}% Sweet, ${iceLabels[order.ice]}${toppingText} — unlocked`;
-    jumboSub.textContent = `Happy birthday, Nico — and yes, your ${order.snack.toLowerCase()} and Thai milk tea are on the way too. 🧋`;
+    jumboSub.textContent = `Hope you like it naa, enjoyyy (ps. i tried🥹) — and yes, your ${order.snack.toLowerCase()} and Thai milk tea are on the way too. 🧋`;
 
     concession.classList.add('hide');
     setTimeout(() => concession.remove(), 500);
